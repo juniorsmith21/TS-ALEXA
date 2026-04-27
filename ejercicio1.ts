@@ -1,10 +1,14 @@
-function procesarNumero(valor: number): number {
+//1.	Declara una variable que pueda almacenar número o string
+//  y crea una función que valide si el valor es número; si lo es, 
+// multiplícalo por 2, si es texto, muéstralo en mayúsculas. 
+
+function mostrarNum(valor: number): number {
     return valor * 2;
 }
 
-function procesarTexto(valor: string): string {
+function mostrarTexto(valor: string): string {
     return valor.toUpperCase();
 }
 
-console.log(procesarNumero(10));
-console.log(procesarTexto("ropa"));
+console.log(mostrarNum(250));
+console.log(mostrarTexto("hola capitan america"));
