@@ -1,12 +1,12 @@
 //2.	Crea una función que reciba un arreglo de números y retorne la suma total de sus elementos. 
-function sumarNumeros(numeros: number[]): number {
-    let suma = 0;
+function sumarNumeritos(numeros: num[]): num {
+    let sumita = 0;
 
     for (let i = 0; i < numeros.length; i++) {
-        suma += numeros[i];
+        sumita + = numeros[i];
     }
 
-    return suma;
+    return sumita;
 }
 
-console.log(sumarNumeros([1, 2, 3, 4])); 
+console.log(sumarNumeritos([1, 2, 3, 4]));
