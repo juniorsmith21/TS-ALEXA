@@ -2,11 +2,11 @@
 // (nombre, nota) y un método que indique si aprobó o no (nota ≥ 3). 
 
 class Estudiante {
-    public nombre: string;
+    public nom: string;
     public nota: number;
 
-    constructor(nombre: string, nota: number) {
-        this.nombre = nombre;
+    constructor(nom: string, nota: number) {
+        this.nombre = nom;
         this.nota = nota;
     }
 
@@ -19,5 +19,5 @@ class Estudiante {
     }
 }
 
-const est1 = new Estudiante("Carlos", 3.5);
-console.log(est1.aprobo());
+const estu1 = new Estudiante("Carlos", 3.5);
+console.log(estu1.aprobo());
