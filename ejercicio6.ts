@@ -4,7 +4,7 @@
 //	método para retirar dinero validando que no quede en negativo 
 
 
-class CuentaBancaria {
+class CuentaBancaria { 
     private saldo: number;
 
     constructor() {
