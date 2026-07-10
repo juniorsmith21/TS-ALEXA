@@ -8,10 +8,10 @@ interface Persona {
 }
 
 const persona1: Persona = {
-    nombre: "Smith",
+    nombre: "Smith Robert",
     edad: 20,
     saludar() {
-        return "Hola, yo soy " + this.nombre;
+        return "Hola, yo soyyyyy " + this.nombre;
     }
 };
 
