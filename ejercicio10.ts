@@ -5,7 +5,7 @@
 
 
 interface Respuesta<T> {
-    data: T;
+    data: T; 
     status: number;
 }
 
