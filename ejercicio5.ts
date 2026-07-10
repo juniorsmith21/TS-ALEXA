@@ -7,7 +7,7 @@ interface Empleado {
 
 function evaluarSalario(emp: Empleado): string {
     if (emp.salario > 2000) {
-        return emp.nombre + " tiene salario alto";
+        return emp.nombre + " tiene salario alto"; 
     } else {
         return emp.nombre + " tiene salario bajo";
     }
